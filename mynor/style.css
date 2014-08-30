@@ -1,0 +1,84 @@
+body {
+width: 100%;
+font-family: Century Gothic, Arial;
+}
+
+.innhold {
+background-color: #ffffff;
+height: 100%;
+
+}
+
+.innhold .tekst {
+padding-left: 20px;
+padding-right: 400px;
+padding-top: 20px;
+
+}
+
+.topp {
+
+background-color: #ffffff;
+font-size: 22;
+height: 200px;;
+width: 100%;
+margin-left: 0;
+
+}
+
+.topp .bildeboks {
+float: left;
+width: 20%;
+height: 200px;
+}
+
+#logo {
+padding-left: 20px;
+}
+
+.topp .meny {
+float: right;
+width: 80%;
+height: 200px;
+}
+
+a {
+text-decoration: none;
+color: #383838;
+font-weight: bold;
+}
+
+.knapper {
+font-size: 20;
+margin-left: 300px;
+margin-top: 160px;
+}
+
+.intro {
+position: relative;
+width: 500px;
+padding-left: 20px;
+
+}
+
+.bilde{
+position: relative;
+width: 300px;
+left: 530px;
+top: -350px;
+}
+
+.hoved {
+padding-left: 20px;
+padding-right: 20px;
+position: relative;
+top: -350px;
+}
+
+#footer {
+position: relative;
+float: left bottom;
+font-size: 13px;
+bottom: -1015px;
+left: 900px;
+}
