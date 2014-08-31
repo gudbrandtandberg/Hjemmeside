@@ -5,27 +5,27 @@ body {
 
 }
 
-#headerTitle {
-	font-weight: bold;
-}
-
-
 #headerWrapper {
 	background-color: #0080ff;
 	width: 100%;
 	margin: 0 auto;
 	padding-top: 30px;
-
-}
-
-#headerTitle {
+	font-weight: bold;
 	color: #ffffff;
 	text-align: center;
 	font-size: 40px;
+
+}
+
+#content{
+	position: relative;
+	width: 100%
 }
 
 #sideBarWrapper {
-	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 150px;
 	height: auto;
 	text-align: center;
@@ -36,44 +36,40 @@ body {
 
 }
 
-#sideBarWrapper .knapp a {
-
-}
-
 #mainWrapper {
+	position: absolute;
+	left: 170;
+	width: 80%;
+	top: 0;
 	color: #660000;
-	width: 880 px;
-	margin-left: 150px;
-	margin-right: 30px;
+	margin: 0 auto;
 	text-wrap: normal;
 }
 
 #mainWrapper .bilde img{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 400px;
+	width: 600px;
 	padding-bottom: 5px;
+	margin: 0 auto;
 }
 
 .bilde {
+	position: relative;
 	text-align: center;
 	padding-bottom: 15px;
-
+	left: 50px;
+	width: 600px;
 }
 
-.knapp {
+#sideBarWrapper div {
 	width = 150px;
 	height = 20px;
 	padding-top: 5px;
-
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
 
 a {
 	text-decoration: none;
 	color: #000000;
-
 }
-
-
-

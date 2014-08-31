@@ -1,36 +1,62 @@
 <html> 
-
 <head> 
-<meta charset="UTF-8">
-<title> Gudbrands hjemmeside </title>
-<link rel="stylesheet" href="style.css" </link>
+	<meta charset="UTF-8">
+	<title> Gudbrands hjemmeside </title>
+	<link rel="stylesheet" href="style.css" </link>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#mainWrapper").load("hjem.html");
+		$("#subhjem").hide();
+		
+		$("#hjemknapp").click(function(){
+			$(this).next().slideToggle(100);
+			$("#mainWrapper").load("hjem.html");
+		});
+		$("#ommegknapp").click(function(){	
+			$("#mainWrapper").load("ommeg.html");
+		});
+		$("#bilderknapp").click(function(){	
+			$("#mainWrapper").load("bilder.html");
+		});
+		$("#progknapp").click(function(){	
+			$("#mainWrapper").load("programmering.html");
+		});
+		$("#tankeknapp").click(function(){	
+			$("#mainWrapper").load("tankestrøm.html");
+		});
+		$("#lenkerknapp").click(function(){	
+			$("#mainWrapper").load("lenker.html");
+		});	
+	});
+	
+	</script>	
+	
 </head>
 
 <body>
+
 <div id="headerWrapper">
 	<div id="headerTitle">
-		<h1> GUDBRAND </h1>
+	<h1> GUDBRAND </h1>
 	</div>
 </div>
 
+<div id=content>
 <div id="sideBarWrapper">
-	<div class="knapp"> <a href="index.html"> Hjem </a></div>
-	<div class="knapp"> <a href="ommeg.html"> Om meg </a></div>
-	<div class="knapp"> <a href="programmering.html"> Programmering </a></div>
-	<div class="knapp"> <a href="bilder.html"> Bilder </a></div>
-	<div class="knapp"> <a href="tankestrøm"> Tankestrøm </a></div>
-	<div class="knapp"> <a href="lenker.html"> Lenker </a></div></div>
+	<div id="hjemknapp"> <a href="#"> Hjem </a></div>
+	<ul id="subhjem"><li>Første</li><li>Andre</li></ul>
+	<div id="ommegknapp"> <a href="#"> Om meg </a></div>
+	<div id="progknapp"> <a href="#"> Programmering </a></div>
+	<div id="bilderknapp"> <a href="#"> Bilder </a></div>
+	<div id="tankeknapp"> <a href="#"> Tankestrøm </a></div>
+	<div id="lenkerknapp"> <a href="#"> Lenker </a></div></div>
 
 <div id="mainWrapper">
-	Hei og velkommen til siden min! Her skal jeg etterhvert legge ut spennende ting om meg selv, det jeg driver med og det jeg liker.
-	<br>
-	
-	<div class="bilde">
-		<img src=bilder/hjembilde.jpg>
-	</div>
 
+</div>
 </div>
 
 </body>
-
 </html>
