@@ -1,20 +1,27 @@
 body {
-	font-family: Century Gothic, Arial;
+	font-family: Helvetica;
 	width: 100%;
 	margin: 0 auto;
+	color: #333333;
 
 }
 
 #headerWrapper {
 	background-color: #0080ff;
+	color: #ffffff;
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 0px;
 	font-weight: bold;
-	color: #ffffff;
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
+	height: 100px;
 
+}
+
+#headerTitle {
+	position: relative;
+	top: 14px;
 }
 
 #content{
@@ -33,17 +40,25 @@ body {
 	font-size: 18px;
 	text-align: left;
 	margin-left: 10px;
+	margin-top: 15px;
+	color: #333333;
 
 }
 
 #mainWrapper {
 	position: absolute;
-	left: 170;
+	left: 170px;
 	width: 80%;
 	top: 0;
-	color: #660000;
 	margin: 0 auto;
 	text-wrap: normal;
+	font-size: 20px;
+	color: #333333;
+	padding: 40px 40px 20px 20px;
+}
+
+#mainWrapper h3 {
+	color: #333333;
 }
 
 #mainWrapper .bilde img{
@@ -62,14 +77,14 @@ body {
 }
 
 #sideBarWrapper div {
-	width = 150px;
-	height = 20px;
-	padding-top: 5px;
+	width: 150px;
+	height: 20px;
+	padding-top: 7px;
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
 
 a {
 	text-decoration: none;
-	color: #000000;
+	color: #333333;
 }

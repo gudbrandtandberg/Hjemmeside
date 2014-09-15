@@ -11,7 +11,6 @@
 		$("#subhjem").hide();
 		
 		$("#hjemknapp").click(function(){
-			$(this).next().slideToggle(100);
 			$("#mainWrapper").load("hjem.html");
 		});
 		$("#ommegknapp").click(function(){	
@@ -46,11 +45,9 @@
 <div id=content>
 <div id="sideBarWrapper">
 	<div id="hjemknapp"> <a href="#"> Hjem </a></div>
-	<ul id="subhjem"><li>Første</li><li>Andre</li></ul>
 	<div id="ommegknapp"> <a href="#"> Om meg </a></div>
 	<div id="progknapp"> <a href="#"> Programmering </a></div>
 	<div id="bilderknapp"> <a href="#"> Bilder </a></div>
-	<div id="tankeknapp"> <a href="#"> Tankestrøm </a></div>
 	<div id="lenkerknapp"> <a href="#"> Lenker </a></div></div>
 
 <div id="mainWrapper">
