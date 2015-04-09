@@ -78,7 +78,20 @@ td {
 	left: 50px;
 	width: 600px;
 }
+.bgbilde {
+	position: relative;
+	text-align: center;
+	padding-bottom: 15px;
+	left: 250px;
+	width: 200px;
+}
+
 .bildeboks {
+	text-align: center;
+}
+
+.caption {
+	padding: 3px;
 	text-align: center;
 }
 
