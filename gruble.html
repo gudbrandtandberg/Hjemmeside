@@ -1,0 +1,68 @@
+<html>
+    <head>
+
+        <title>Gruble!</title>
+        <meta charset="UTF-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        
+        <script type="text/javascript">
+            
+            var kategorier = ["trær", "vitenskapsmenneske", "dyr", "fiskearter", "psykologi", "hunderaser", "sjangere", "bilmerker", "språk", "land"];
+            var bokstaver = ["G", "S", "J", "A", "K", "I", "R", "H", "O", "N","T", "P", "E", "V", "L", "F"];
+            
+            function nyBokstav(){  
+             var kat =  bokstaver[Math.floor(Math.random() * bokstaver.length)];
+             document.getElementById("bokstav").innerHTML = kat;
+             return true;
+            }
+            
+            function nyKategori(){
+             var kat =  kategorier[Math.floor(Math.random() * kategorier.length)];
+             document.getElementById("kategori").innerHTML = kat;
+             return;
+            }   
+            
+        </script>
+        <style>
+            body {
+                padding-top: 50px;
+                text-align: center;
+                width: 900px;
+                margin: 0 auto;
+                font-size: 40px;
+            }
+            .felt {
+                border: dotted 1px blue;
+                border-radius: 5px;
+                height: 70px;
+            }
+            h1 {
+                font-size: 90px;
+                color: fuchsia;
+            }
+            .col-sm-6 {
+                padding: 0 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Gruble
+        </h1>
+        
+        <div class="row">
+            <div class="col-sm-6"><div id="bokstav" class="felt"></div></div>
+            <div class="col-sm-6"><div id="kategori" class="felt"></div></div>
+        </div>
+        
+        <div class="row">
+            <button class="btn btn-info" onclick="return nyBokstav();">Bokstav</button>
+            <button class="btn btn-success" onclick="nyKategori();">Kategori</button>
+        </div>
+        
+    </body>
+</html>
