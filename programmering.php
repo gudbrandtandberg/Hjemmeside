@@ -2,6 +2,26 @@
 
 <p>Below you will find a handful of projects I have worked on during the last few years.</p>
 
+<h3> Geometric Modeling </h3>
+
+<p>
+	In my first year at UBC I took a course in geometric modeling. Very interesting and enjoyable stuff. We wrote our assignments in C++, as add-ons to a very basic OpenGL application called Cartel. First, we implemented the Loop subdivision scheme, then we worked on mesh simplification, first using simple vertex-removal and retriangulation, then using edge-collapses and the slightly smarter QSLIM error-metric. Finally, we implemented As-Rigid-As-Possible Shape Deformation, allowing the camel to do some yoga. Github <a href="https://github.com/gudbrandtandberg/Cartel">link</a>.
+</p>
+
+<div class="bilde">
+	<img src="bilder/cartel2.png">
+</div>
+
+<div class="bilde">
+	<img src="bilder/cartel1.png">
+</div>
+
+<div class="bilde">
+	<img src="bilder/cartel3.png">
+</div>
+
+<hr>
+
 <h3>Solar System I</h3>
 <p>
 	I used to really love solving the solar system. It's very pleasing, how it all comes together; physics model, mathematical model, solution theory, visualization.. I've learned a lot from this. My first program was written in matlab, and used a simple RK4-solver to solve the solar system for one period of the largest planet in the input. The project can be found <a href="https://github.com/gudbrandtandberg/SolarSystem">here</a>.

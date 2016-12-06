@@ -13,4 +13,11 @@ Some random YT-videos.
 <li><a href="https://www.youtube.com/watch?v=58-atNakMWw">Goats</a> - gotta love 'em. </li>
 </ul>
 
+<p>
+    <ul>
+        <li><a href="http://www.cs.ubc.ca/research/eyemoveweb3d16//webapp/desktop.html">Interactive eye animation applet</a> - pretty cool!</li>
+        <li><a href="https://musiclab.chromeexperiments.com/">Chrome Music Labs</a> super cool music exploration tool from Google</li>
+    </ul>
+</p>
+
 <?php include("footer.php"); ?>
