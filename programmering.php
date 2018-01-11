@@ -2,6 +2,8 @@
 
 <p>Below you will find a handful of projects I have worked on during the last few years.</p>
 
+<p>Also I have a <a href="http://www.github.com/gudbrandtandberg/">github</a>
+
 <h3> Geometric Modeling </h3>
 
 <p>
